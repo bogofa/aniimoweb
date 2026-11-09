@@ -72,7 +72,7 @@ class RewardOfferDialog extends StatelessWidget {
                 onPressed: () => Navigator.of(context).pop(true),
                 icon: const Icon(Icons.play_circle_fill_rounded, size: 20),
                 label: Text(
-                  'Watch Video & Unlock ($rewardMinutesm Free)',
+                  'Watch Video & Unlock (${rewardMinutes}m Free)',
                   style: const TextStyle(
                     fontWeight: FontWeight.w700,
                     fontSize: 14,
