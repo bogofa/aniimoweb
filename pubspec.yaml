@@ -1,0 +1,24 @@
+name: aniimo_builder_companion
+description: Aniimo Builder For Companion — Official iOS App for aniimoplay.com with AdMob Banner, Interstitial, Rewarded Ads, and Rate App Popup.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.8.0
+  google_mobile_ads: ^5.1.0
+  in_app_review: ^2.0.9
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
