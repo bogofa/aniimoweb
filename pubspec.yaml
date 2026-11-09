@@ -1,7 +1,7 @@
 name: aniimo_builder_companion
 description: Aniimo Builder For Companion — Official iOS App for aniimoplay.com with AdMob Banner, Interstitial, Rewarded Ads, and Rate App Popup.
 publish_to: "none"
-version: 1.0.0+1
+version: 1.0.0+2
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
